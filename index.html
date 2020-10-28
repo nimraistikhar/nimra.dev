@@ -59,7 +59,7 @@
                                                 <a href="https://github.com/nimraistikhar" class="repo" target="_blank" title="portfolio Github repo"><i class="ion-social-github github"></i></a>
                                           </div>
                                 </div>
-                                <div class="bg-video">
+                                <div data-scroll class="bg-video">
                                         <a href="http://previous-portfolio.surge.sh">
                                                 <video class="bg-video-content" autoplay muted loop>
                                                         <source src="img/previous-portfolio.mp4" type="video/mp4">
@@ -84,7 +84,7 @@
                                                 <a href="https://github.com/nimraistikhar" class="repo" target="_blank" title="portfolio Github repo"><i class="ion-social-github github"></i></a>
                                           </div>
                                 </div>
-                                <div class="bg-video bg">
+                                <div data-scroll class="bg-video bg">
                                         <a href="http://lombok.surge.sh">
                                                 <video class="bg-video-content" autoplay muted loop>
                                                         <source src="img/LOMBOK.mp4" type="video/mp4">
@@ -109,7 +109,7 @@
                                                 <a href="https://github.com/nimraistikhar" class="repo" target="_blank" title="portfolio Github repo"><i class="ion-social-github github"></i></a>
                                           </div>
                                 </div>
-                                <div class="bg-video bg">
+                                <div data-scroll class="bg-video bg">
                                         <a href="http://Coding-service.surge.sh">
                                                 <video class="bg-video-content" autoplay muted loop>
                                                         <source src="img/coding-service.mp4" type="video/mp4">
@@ -134,7 +134,7 @@
                                                 <a href="https://github.com/nimraistikhar" class="repo" target="_blank" title="portfolio Github repo"><i class="ion-social-github github"></i></a>
                                           </div>
                                 </div>
-                                <div class="bg-video bg">
+                                <div data-scroll class="bg-video bg">
                                         <a href="http://EVERLANE.surge.sh">
                                                 <video class="bg-video-content" autoplay muted loop>
                                                         <source src="img/EVERLANE.mp4" type="video/mp4">
@@ -147,26 +147,6 @@
                 
         </section>
 
-
-        <!--      ***********************          TESTIMONIAL          **************************        -->
-
-        <article id="testimonial">
-                <h2 class="heading-about">Testimonials</h2>
-                <div class="testimonial-desc">
-                        <figure>
-                                <img src="img/nisar.jpg" alt="front-end-developer" class="about-img testimonial-img">
-                        </figure>
-                        <div class="testimonial-paragraph">
-                                <h3>Syed Nisar Hassan Naqvi</h3>
-                                <p>Pakistan, Frontend Developer</p>
-                                <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, quia natus in quae doloribus soluta earum cupiditate omnis itaque obcaecati voluptate libero architecto quam eaque tempore asperiores beatae ipsa dicta cum nihil, molestiae sequi voluptatum explicabo aut. Molestiae, quidem. Tenetur pariatur sit optio autem quos corporis perferendis!.
-                                </p>
-                        </div>
-                 
-                </div>
-        </article>
-
         <!--      ***********************          ABOUT          **************************        -->
 
         <main id="about">
@@ -178,10 +158,6 @@
                         <div class="about-paragraph">
                                 <p>
                                         My name is Nimra Istikhar I am a self-taught front end developer and interface designer based in Lahore, Pakistan. I'm passionate about accessibility, performance and elegant design and things that usually make life easier for the users.
-                                </p>
-
-                                <p>
-                                        I currently work for TypeFox as a freelance front-end developer where almost the entirety of the work I do is open source.
                                 </p>
 
                                 <p>
@@ -218,10 +194,21 @@
               
               <div class="footer__outro">
                      <p>&copy;2020. Crafted within Lahore by <a href="index.html">Nimra</a></p>
-                     <!-- <div class="footer-arrow">
-                                 <a href="#" id="fixedbutton"><i class="ion-android-arrow-up arrow-top"></i></a>
-                </div>     -->
               </div>
       </footer>
+
+      <a href="#top" class="back-to-top" title="Back to Top">
+        <img src="img/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+      </a>
+      <script src="./index.js"></script>
+      <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+
+      <script>
+                // ScrollOut({
+                //        threshold: .5
+                // });
+                ScrollOut();
+      </script>
+
 </body>
 </html>
